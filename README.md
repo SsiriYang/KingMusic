@@ -1,4 +1,4 @@
-# zhifou
+# King音乐网
 ### JavaWeb练手项目 --音乐网站
 
 - **项目环境**：java8、tomcat7.0、MySQL数据库

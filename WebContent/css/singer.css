@@ -1,0 +1,135 @@
+@CHARSET "UTF-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, blockquote {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+.header{
+	width:100%;
+	height:100px;
+	background-color: purple;
+}
+.bg_box {
+    width: 100%;
+    background: #f6f6f6;
+}
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+
+
+
+.musician, .musician_1 {
+    width: 920px;
+    float: left;
+    margin-top: 20px;
+    background: #fff;
+    padding: 40px;
+}
+.musician dd {
+    width: 670px;
+    float: left;
+    margin-left: 20px;
+}
+
+.ian_name {
+    font-size: 32px;
+    color: #4a4a4a;
+    line-height: 32px;
+    margin-top: 40px;
+}
+.ian_1 {
+    color: #9b9b9b;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+
+.musician dt img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    float: left;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.ian_h3 {
+    width: 100%;
+    float: left;
+    font-size: 32px;
+    color: #4a4a4a;
+}
+.album_music {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+.album_music ul {
+    width: 100%;
+    float: left;
+    height: 60px;
+    border-bottom: 1px solid #D8D8D8;
+}
+ol, ul, li {
+    list-style: none outside none;
+}
+.album_music li:nth-child(1) {
+    width: 300px;
+    float: left;
+}
+.album_music .ul1 li {
+    color: #9b9b9b;
+}
+
+.album_music li {
+    line-height: 60px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.album_music li:nth-child(2) {
+    width: 230px;
+    float: left;
+    text-align: center;
+}
+.album_music li:nth-child(3) {
+    width: 230px;
+    float: left;
+    text-align: center;
+}
+.album_music li a {
+    color: #4a4a4a;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

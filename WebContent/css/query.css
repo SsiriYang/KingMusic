@@ -1,0 +1,151 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+.km_search_header {
+    width: 1000px;
+    height: 50px;
+    background-color: #fff;
+    margin:0 auto;
+}
+
+
+.km_search_header .search_wrapper {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 0px;
+    z-index: 999;
+}
+.km_search_input{
+    position: relative;
+    width: 498px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.km_search_input input{
+    display: block;
+    left: 0;
+    top: 0;
+    width: 440px;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 14px;
+    padding: 19px 0;
+    color: #666;
+	position: absolute;
+	vertical-align: middle;
+	border: none; 
+	outline:none;
+}
+.km_searh_btn {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    width: 42px;
+    height: 39px;
+    margin: 0;
+    border: none;
+    padding: 0;
+    background: 0 0;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.km_query_bg{
+	width:100%;
+	background-color: #f6f6f6;
+}
+.km_query_main{
+	width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.km_query_center{
+	width: 100%;
+    min-height: 700px;
+    background: #fff;
+    margin-top: 20px;
+    float: left;
+}
+.center_left{
+	width: 300px;
+    float: left;
+}
+.center_right{
+	width: 700px;
+    float: left;
+    border-left: 1px solid #D8D8D8;
+    min-height: 700px;
+    padding: 30px 20px 20px 30px;
+}
+.right_songs table{
+	 /*border: solid blue 1px;*/
+     width: 600px;
+     margin: 0 auto;
+}
+.right_songs table tr{
+     height: 50px;
+     border-bottom: dashed 1px #ccc;
+     display: block;
+     width: 600px;
+}
+.right_songs table tr{
+	 text-align: center;
+     font-family: 幼圆;
+     font-size: 17px;
+     line-height: 50px;
+}
+.right_td_02:hover {
+	filter: alpha(opacity=0.5);
+	background-color: pink;
+}
+.right_td_01{
+	font-size: 30px;
+	width:600px;
+	margin-bottom: 20px;
+}
+.right_td_02{
+	width:600px;
+}
+.right_songs a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 22px;
+    
+}
+.right_page{
+	margin-top:10px;
+}
+.right_page ul{
+	 /*border: solid blue 1px;*/
+     /* width: 600px; */
+     margin: 20px auto;
+}
+.right_page ul li{
+    /*  display: block;
+     width: 400px; */
+     margin: 0 auto;
+     list-style: none;
+	font-size:20px;
+	float: right;
+	padding:0 20px;
+	color:#999;
+	cursor: pointer;
+}   
+
+        
+.right_page a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}        
+  

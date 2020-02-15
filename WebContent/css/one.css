@@ -1,0 +1,239 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	text-align: left;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.header{
+	width:100%;
+	height: 60px;
+	background-color: pink;
+}
+.bg_box{
+	width:100%;
+	background-color: #f6f6f6;
+}
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.record_data {
+    width: 100%;
+    min-height: 700px;
+    background: #fff;
+    margin-top: 20px;
+    float: left;
+}
+.record_data_left {
+    width: 293px;
+    float: left;
+}
+.record_data_right {
+    width: 656px;
+    float: left;
+    border-left: 1px solid #D8D8D8;
+    min-height: 700px;
+    padding: 30px 20px 20px 30px;
+}
+.record_data_left h3 {
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    color: #E85252;
+    font-size: 20px;
+    text-align: center;
+}
+.record_data_left dl {
+    width: 253px;
+    padding: 0 20px;
+}
+.record_data_left dd:first-child {
+    margin-top: 0;
+}
+
+.record_data_left dd {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-top: 23px;
+    line-height: 24px;
+}
+.record_data_left dt {
+    font-size: 14px;
+    color: #9b9b9b;
+    display: block;
+}
+a, a:active, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #999;
+    cursor: pointer;
+}
+.downimg {
+    width: 214px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+ol, ul, li {
+    list-style: none outside none;
+}
+.downimg li {
+    margin-bottom: 15px;
+}
+.record_data_right {
+    width: 656px;
+    float: left;
+    border-left: 1px solid #D8D8D8;
+    min-height: 700px;
+    padding: 30px 20px 20px 30px;
+}
+.name_logo, .name_logo1 {
+    width: 315px;
+    height: 256px;
+    float: left;
+    position: relative;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+.record_data_right dd {
+    width: 315px;
+    float: right;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+.album_name {
+    font-size: 28px;
+    color: #4a4a4a;
+    font-weight: bold;
+    line-height: 28px;
+    height: 56px;
+    overflow: hidden;
+}
+.record_data_right dd {
+    width: 315px;
+    float: right;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+.album_num, .album_time {
+    line-height: 16px;
+    color: #4a4a4a;
+    font-size: 16px;
+}
+.album_ren {
+    line-height: 44px;
+    font-size: 16px;
+}
+.album_ren img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.album_all {
+    text-align: right;
+}
+.album_all button {
+    width: 110px;
+    height: 44px;
+    border: 1px solid #e85252;
+    border-radius: 4px;
+    color: #e85252;
+    font-size: 16px;
+    background: none;
+}
+
+button {
+    cursor: pointer;
+}
+.album_music {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+.album_music ul {
+    width: 100%;
+    float: left;
+    height: 60px;
+    border-bottom: 1px solid #D8D8D8;
+}
+.album_music li:nth-child(1) {
+    width: 280px;
+    float: left;
+}
+.album_music .ul1 li {
+    color: #9b9b9b;
+}
+.album_music li {
+    line-height: 60px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+ol, ul, li {
+    list-style: none outside none;
+}
+.album_music li:nth-child(2) {
+    width: 188px;
+    float: left;
+    text-align: center;
+}
+.album_music li:nth-child(3) {
+    width: 188px;
+    float: left;
+    text-align: center;
+}
+.album_music li a {
+    color: #4a4a4a;
+}
+
+.footer{
+	width:100%;
+	height: 150px;
+	background: purple;
+    border-top: 3px solid pink;
+}
+.footer .p1 {
+    line-height: 32px;
+    margin-top: 30px;
+}
+.footer p {
+    text-align: center;
+    color: #999;
+}
+.footer .p1 span {
+    margin: 0 20px;
+}
+
+span, b, i, em {
+    display: inline-block;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
